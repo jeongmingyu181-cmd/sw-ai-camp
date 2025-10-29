@@ -220,7 +220,7 @@ def check_loan():
     customer_id = find_account(name, phone)
     if customer_id == 0:
         print("\n고객을 찾을 수 없습니다.\n")
-        return -1
+        return -1   
     for account in accounts:
         if account.customer_id == customer_id:
             pw = int(input("비밀번호: "))
