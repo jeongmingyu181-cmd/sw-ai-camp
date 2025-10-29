@@ -1,0 +1,2 @@
+﻿customer_id,loan_amount,interest_rate,start_date,accrued_interest
+C001,10000,50.0,2025-10-29,2000.0
